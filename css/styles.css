@@ -1,0 +1,190 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-head{
+    font-family: 'Montserrat';  font-size: 4rem;  line-height: 1.5;  font-weight: 1000;
+}
+
+#cta{
+    background-color: #ff4c68;
+    font-family: 'Montserrat-Black';
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.col-lg-6{
+    color: white;
+}
+
+.card-header{
+    font-weight: bold;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.font-cta{
+    color: #fff;
+    font-size: 3rem;  line-height: 1.5;  font-weight: 1000;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#footer{
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.foot{
+    margin: 0% 0.5% 2% 0.5%;
+    color: black;
+}
+
+.foot:hover{
+    color: #ff4c68;
+}
+
+.foot-p{
+    color: #8f8f8f;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feat-pic{
+    color: #ef8172;
+    margin-bottom: 20px;
+}
+
+.feat-pic:hover{
+    color: #ff4c68;
+}
+
+.feat-p{
+    color: #8f8f8f;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat-bold' ,sans-serif;
+}
+
+.navbar{
+    padding-bottom: 8%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-size: 120%;
+    font-family: 'Montserrat-light';
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.pricing-heading{
+    font-size: 3rem;  
+    line-height: 1.5; font-weight: bold;
+
+}
+
+.pricing-cards{
+    font-size: 3rem;  
+    line-height: 1.5; font-weight: bold;
+
+}
+
+.pricing-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.rotateMobile{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.heading-testi{
+    font-size: 3rem;  
+    line-height: 1.5; font-weight: bold;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;  
+    line-height: 1.5; font-weight: bold;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+@media (max-width: 1245px) and (max-width: 992px){
+    .rotateMobile{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
